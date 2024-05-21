@@ -1,0 +1,35 @@
+$font-family-sans-serif: 'Lato', sans-serif;
+$primary: #2c2d5b;
+$secondary: #f67366;
+
+@import 'bootstrap/scss/bootstrap';
+
+.nav-dropdown-menu {
+  width: 720px;
+}
+
+.icon-box,
+.social-box {
+  width: 42px;
+  aspect-ratio: 1;
+}
+
+.hero-content {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.divider {
+  background-color: white;
+  width: 100%;
+  height: 1px;
+  opacity: 50;
+}
+
+@include media-breakpoint-down(lg) {
+  .nav-dropdown-menu {
+    width: 100%;
+  }
+}
